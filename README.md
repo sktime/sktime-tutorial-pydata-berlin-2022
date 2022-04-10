@@ -3,6 +3,8 @@
 Welcome to the sktime tutorial at PyData Berlin 2022
 ====================================================
 
+### advanced forecasting - probabilistic, global and hierarchical
+
 :tv: youtube link will be published here once available.
 
 This tutorial is about [sktime] - a unified framework for machine learning with time series. sktime features various time series algorithms and modular tools for pipelining, ensembling and tuning. 
@@ -15,21 +17,32 @@ This tutorial is an **advanced tutorial** which explains sktime framework functi
 
 It is recommended to work through the **general sktime introduction tutorial** first:
 
-:movie_camera: **[general sktime intro tutorial](https://github.com/sktime/sktime-tutorial-pydata-glboal-2021) from PyData Global 2021!**\
+:movie_camera: **[general sktime intro tutorial](https://github.com/sktime/sktime-tutorial-pydata-glboal-2021) from PyData Global 2021**\
 :tv: [youtube video of sktime intro at PyData Global 2021](https://www.youtube.com/watch?v=ODspi8-uWgo)
 
 
 ## :bulb: Description
 
-Time series are ubiquitous in real-world applications, but often add considerable complications to data science workflows. Many machine learning libraries (e.g. scikit-learn) focus on non-temporal data. And even though there are many time series libraries, they are often incompatible with each other.
+There has been a surge of recent interest in probabilistic forecasting, as well as global and hierarchical forecasting. Advances in research and benchmarking studies such as M5 have proven that composable pipelines achieve state-of-art performance.
 
-In this tutorial, we will present [sktime] - a unified framework for machine learning with time series. sktime covers multiple time series learning problems, including time series transformation, classification and forecasting, among others. In addition, sktime allows you to easily apply an algorithm for one task to solve another (e.g. a scikit-learn regressor to solve a forecasting problem). In the tutorial, you will learn about how you can identify these problems, what their key differences are and how they are related.
+One of the newest additions to sktime are interfaces for probabilistic forecasting, and forecasting with panel or hierarchical data.
 
-To solve these problems, sktime provides various time series algorithms and modular tools for pipelining, ensembling and tuning. In addition, sktime is interfaces with many existing libraries, including scikit-learn, statsmodels and fbprophet.
+**Probabilistic forecasting** is the task of making forecast predictions that include statements about the uncertainty of the forecast. It includes:
 
-You will learn how to use, combine, tune and evaluate different algorithms on real-world data sets. We'll work through all of this step by step using Jupyter Notebooks. Finally, you will find out about how to get involved in sktime's community.
+*	interval forecasts: producing intervals with a nominal probability of the observation to be contained in the interval
+*	quantile forecasts: specifying one or multiple quantiles of a predictive forecast distribution
+*	fully probabilistic (aka distributional) forecasts: producing a symbolic representation of a predictive forecast distribution
+*	samples from probabilistic forecasts: producing a sample from the predictive forecast distribution
 
-:movie_camera: **Check out our [previous tutorial](https://github.com/sktime/sktime-tutorial-pydata-glboal-2021) from PyData Global 2021!**
+Probabilistic forecasts are evaluated using probabilistic forecast metrics; they can be obtained from, or partake in specific composition algorithms.
+
+**Hierarchical forecasting** is forecasting in the context of "hierarchical time series", i.e., temporal observations where individual observations may be of an instance classified by one or multiple "hierarchy" variables, such as "hospital ID" or "patient ID". A special case is a panel of time series, which is simply a collection of time series. Forecasting with such time series may be improved by algorithms that use information across the different instances, or information that links time series to the hierarchy variables. Another term for this task is "global forecasting".
+
+Lastly, a forecast may be both hierarchical and probabilistic, i.e., in a scenario where multiple time series with hierarchy variables are present, and where uncertainty statements of the forecast are of interest.
+
+sktime's forecasting module provides a number of new interfaces for the above, some consolidating, some bleeding-edge with opportunities to contribute to implementation or design. As research on software interfaces and mathematical conceptualization in this area is still an ongoing endeavour, challenges will also be discussed. We welcome contributions from the pydata/numfocus community.
+
+:movie_camera: **Check out our [previous tutorial](https://github.com/sktime/sktime-tutorial-pydata-glboal-2021) from PyData Global 2021!**\
 :movie_camera: **Check out our [previous tutorial](https://github.com/sktime/sktime-tutorial-pydata-amsterdam-2020) from PyData Amsterdam 2020!**
 
 ## :rocket: How to get started
