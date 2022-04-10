@@ -27,10 +27,10 @@ One of the newest additions to sktime are interfaces for probabilistic forecasti
 
 **Probabilistic forecasting** is the task of making forecast predictions that include statements about the uncertainty of the forecast. It includes:
 
-•	interval forecasts: producing intervals with a nominal probability of the observation to be contained in the interval
-•	quantile forecasts: specifying one or multiple quantiles of a predictive forecast distribution
-•	fully probabilistic forecasts: producing a symbolic representation of a predictive forecast distribution
-•	samples from probabilistic forecasts: producing a sample from the predictive forecast distribution
+*	interval forecasts: producing intervals with a nominal probability of the observation to be contained in the interval
+*	quantile forecasts: specifying one or multiple quantiles of a predictive forecast distribution
+*	fully probabilistic (aka distributional) forecasts: producing a symbolic representation of a predictive forecast distribution
+*	samples from probabilistic forecasts: producing a sample from the predictive forecast distribution
 
 Probabilistic forecasts are evaluated using probabilistic forecast metrics; they can be obtained from, or partake in specific composition algorithms.
 
