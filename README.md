@@ -3,13 +3,19 @@
 Welcome to the sktime tutorial at PyData Berlin 2022
 ====================================================
 
-:tv: [Watch on youtube](https://www.youtube.com/watch?v=ODspi8-uWgo)
+:tv: youtube link will be published here once available.
 
-This tutorial is about [sktime] - a unified framework for machine learning with time series. sktime features various time series algorithms and modular tools for pipelining, ensembling and tuning. You will learn how to use, combine and evaluate different algorithms on real-world data sets and integrate functionality from many existing libraries, including scikit-learn.
+This tutorial is about [sktime] - a unified framework for machine learning with time series. sktime features various time series algorithms and modular tools for pipelining, ensembling and tuning. 
+
+This tutorial is an **advanced tutorial** which explains sktime framework functionality for hierarchical and probabilistic forecasting.
 
 [sktime]: https://sktime.org
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-pydata-global-2021-tutorial/main?filepath=notebooks)
+
+It is recommended to watch the **general sktime introduction tutorial** first:
+
+:tv: [Watch on youtube](https://www.youtube.com/watch?v=ODspi8-uWgo)
 
 
 ## :bulb: Description
@@ -22,7 +28,8 @@ To solve these problems, sktime provides various time series algorithms and modu
 
 You will learn how to use, combine, tune and evaluate different algorithms on real-world data sets. We'll work through all of this step by step using Jupyter Notebooks. Finally, you will find out about how to get involved in sktime's community.
 
-:movie_camera: **Check out our [previous tutorial](https://github.com/sktime/sktime-tutorial-pydata-amsterdam-2020) from the PyData Amsterdam 2020!**
+:movie_camera: **Check out our [previous tutorial](https://github.com/sktime/sktime-tutorial-pydata-glboal-2021) from PyData Global 2021!**
+:movie_camera: **Check out our [previous tutorial](https://github.com/sktime/sktime-tutorial-pydata-amsterdam-2020) from PyData Amsterdam 2020!**
 
 ## :rocket: How to get started
 
