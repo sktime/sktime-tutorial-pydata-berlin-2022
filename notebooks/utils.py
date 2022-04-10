@@ -8,6 +8,15 @@ import pandas as pd
 import seaborn as sns
 from matplotlib.ticker import MaxNLocator
 
+def load_hier_total_example():
+    """Load hierarchical data example with totals."""
+    from sktime.datatypes import get_examples
+    from sktime.transformations.hierarchical.aggregate import Aggregator
+
+    y_hier = get_examples("pd_multiindex_hier")[0]
+
+    return Aggregator().fit_transform(y_hier)
+
 
 def _get_windows(cv, y):
     """Generate windows"""
@@ -80,3 +89,5 @@ def plot_windows(cv, y, title=""):
     # remove duplicate labels/handles
     handles, labels = [(leg[:2]) for leg in ax.get_legend_handles_labels()]
     ax.legend(handles, labels)
+
+
