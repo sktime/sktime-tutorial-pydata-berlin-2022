@@ -13,9 +13,10 @@ This tutorial is an **advanced tutorial** which explains sktime framework functi
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-pydata-global-2021-tutorial/main?filepath=notebooks)
 
-It is recommended to watch the **general sktime introduction tutorial** first:
+It is recommended to work through the **general sktime introduction tutorial** first:
 
-:tv: [Watch on youtube](https://www.youtube.com/watch?v=ODspi8-uWgo)
+:movie_camera: **[general sktime intro tutorial](https://github.com/sktime/sktime-tutorial-pydata-glboal-2021) from PyData Global 2021!**
+:tv: [youtube video of sktime intro at PyData Global 2021](https://www.youtube.com/watch?v=ODspi8-uWgo)
 
 
 ## :bulb: Description
