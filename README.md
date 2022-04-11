@@ -13,7 +13,7 @@ This tutorial is an **advanced tutorial** which explains sktime framework functi
 
 [sktime]: https://sktime.org
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-pydata-global-2021-tutorial/main?filepath=notebooks)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-tutorial-pydata-berlin-2022main?filepath=notebooks)
 
 It is recommended to work through the **general sktime introduction tutorial** first:
 
