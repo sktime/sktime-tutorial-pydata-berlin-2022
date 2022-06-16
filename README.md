@@ -42,7 +42,7 @@ Lastly, a forecast may be both hierarchical and probabilistic, i.e., in a scenar
 
 sktime's forecasting module provides a number of new interfaces for the above, some consolidating, some bleeding-edge with opportunities to contribute to implementation or design. As research on software interfaces and mathematical conceptualization in this area is still an ongoing endeavour, challenges will also be discussed. We welcome contributions from the pydata/numfocus community.
 
-:movie_camera: **Check out our [previous tutorial](https://github.com/sktime/sktime-tutorial-pydata-glboal-2021) from PyData Global 2021!**\
+:movie_camera: **Check out our [previous tutorial](https://github.com/sktime/sktime-tutorial-pydata-global-2021) from PyData Global 2021!**\
 :movie_camera: **Check out our [previous tutorial](https://github.com/sktime/sktime-tutorial-pydata-amsterdam-2020) from PyData Amsterdam 2020!**
 
 ## :rocket: How to get started
